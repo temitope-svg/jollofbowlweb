@@ -1,0 +1,386 @@
+@font-face {
+    font-family: Bolota ;
+    src: url('./bolota-bold.ttf'
+    );
+}
+@font-face {
+    font-family:AlteHaasGrotesk ;
+    src: url('./AlteHaasGroteskRegular.ttf');
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.page{
+    padding:0.05rem;
+    font-family: Bolota;
+    font-style: normal;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+.heading{
+    text-align: center;
+    width: 100%;
+}
+.heading img{
+    width: 17rem;
+    height: 2.5rem;
+    margin: 1rem 0;
+    object-fit: cover;
+}
+.sec_image img{
+    width: 100%;
+    height:25rem;
+    object-fit: cover;
+}
+.third_bar{
+    background-color: #f00 ;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -0.5rem;
+}
+.third_bar h2{
+    font-size: 2.8rem;
+    color: #FFD008;
+    font-weight: 800;
+}
+.details{
+    margin: 2rem 25vw;
+    text-align: center;
+}
+.details p{
+    font-family: AlteHaasGrotesk ;
+    font-size: 1.1rem;
+    font-weight: 400;
+
+}
+.details p:nth-child(1){
+    margin-bottom: 1rem;
+}
+.shot_img{
+    display: flex;
+    justify-content: center;
+}
+.shot_img img{
+    height: 90vh;
+    object-fit: cover;
+}
+.fourth{
+    text-align: center;
+    position: relative;
+    padding: 1.5rem 0;
+    margin-bottom: 5rem;
+}
+.fth_text h2{
+    font-size:3.2rem;
+    color: #f00;
+    letter-spacing: -0.1rem;
+    word-spacing: 0.6rem;
+}
+.downh2{
+    margin-top: -1rem;
+}
+.fth_image{
+  margin: -3.2rem;
+  
+}
+.fth_image img{
+    width: 70vw;
+}
+.price_tag{
+    text-align: center;
+}
+.price_tag img{
+    width: 50vw;
+    margin-bottom: 3rem;
+}
+.last_bar{
+    background-color: #f00;
+    position: relative;
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    margin: 0 2rem;
+}
+.last_bar h2{
+    color: #fff;
+    font-size: 1.99rem;
+    margin-bottom: -0.2rem;
+    word-spacing: 0.5rem;
+}
+.last_bar p{
+    font-size: 0.8rem;
+    color: #fff;
+    margin-bottom: 0.2rem;
+    font-family: AlteHaasGrotesk ;
+}
+.overlay{
+    position: absolute;
+    right: -2rem;
+    top: -2.5rem;
+}
+.overlay img{
+    height: 6rem;
+    width: 6rem;
+}
+
+.mail{
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Email{
+    width: 60vw;
+    height: 2.5rem;
+    padding: 0.4rem 1rem;
+    border: 0;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    color: #000;
+}
+.Email::placeholder{
+    font-size: 0.9rem;
+}
+.Email:focus{
+    outline: none;
+}
+.submit{
+    width: 5rem;
+    height: 2.5rem;
+    padding: 0.4rem 1rem;
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: #FFD008;
+    color: #f00;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 0.3rem;
+}
+.send{
+    background-color: #FFD008;
+    padding: 2rem;
+    margin: 0 2rem;
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+}
+.send h3{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
+}
+.sendDetails{
+    display: flex;
+    font-family: AlteHaasGrotesk ;
+}
+.leftSend{
+    background-color: #fff ;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.leftSend form{
+    display: flex;
+    flex-direction: column;
+}
+.leftSend form label{
+    font-size: 1rem;
+    color: rgb(0, 0,0,.8);
+    margin-bottom:.3rem ;
+    font-weight: 500;
+}
+.leftSend form input{
+    height: 2rem;
+    padding: 0 .5rem;
+    border: 1px solid rgb(0, 0,0,.2);
+    margin-bottom: .8rem;
+}
+.leftSend form input:focus{
+    outline: none;
+}
+.leftSend form textarea{
+    margin-bottom:1rem;
+    resize: none;
+    padding: .5rem;
+    border: 1px solid rgb(0, 0,0,.2);
+}
+.leftSend form textarea:focus{
+    outline: none;
+}
+.leftSend form textarea::placeholder{
+    font-family: inherit;
+    font-size: 1rem;
+}
+.leftSend form button{
+    padding: .8rem;
+    width: 8rem;
+    border: 0;
+    background-color: #f00;
+    color: #fff;
+    border-radius: .6rem;
+}
+.leftSend form button:hover{
+    background-color: #FFD008;
+    color: rgb(0, 0,0,.7);
+}
+.rightSend{
+    margin-left: 2.5rem;
+    font-family: AlteHaasGrotesk ;
+}
+.rightSend p{
+    font-size: 1rem;
+}
+.rightSend .sendicon{
+    display: flex;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    border-radius: .5rem;
+    margin-bottom: 1.1rem;
+}
+.rightSend .sendicon i{
+    font-size: 1rem;
+    color: #f00;
+    margin-top:-.2rem;
+}
+.rightSend .sendicon h4{
+    font-size: 1rem;
+    font-weight: 350;
+    margin: 0;
+    margin-left: .5rem;
+}
+.lowest{
+    background-color: #f00;
+    margin-top: 3rem;
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: 
+    space-between;
+    color: #fff;
+    margin-bottom: 0;
+}
+.low_right{
+    display: flex;
+    align-items: center;
+    font-family: AlteHaasGrotesk ;
+}
+.low_right p:nth-child(2){
+    margin-right: .4rem;
+}
+.low_left a{
+    color: rgb(0, 0,0,.7);
+    padding: 0.45rem;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+@media (max-width: 700px) {
+    .details p{
+        font-size: .9rem;
+        font-weight: 400;
+    }
+    .shot_img img{
+        height: 70vh;
+    }
+    .third_bar h2{
+        font-size: 2.2rem;
+    }
+}
+@media (max-width: 530px) {
+  .send h3{
+    font-size: 1.5rem;
+  }
+  .sendDetails{
+    flex-direction: column;
+  }
+  .leftSend{
+    width: 100%;
+  }
+  .rightSend{
+    margin: 1.5rem 0 0 0;
+    display: flex;
+  }
+  .sendcover{
+    width: 50%;
+  }
+  .sendcover:nth-child(2){
+    margin-left: 1rem;
+  }
+  .sendicon h4{
+    font-size: .3rem;
+  }
+}
+@media (max-width: 450px){
+    .third_bar h2{
+        font-size: 1.8rem;
+    }
+    .details{
+       margin: 2rem 5vw; 
+    }
+    .details p{
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    .shot_img img{
+        height: 50vh;
+    }
+    .last_bar h2{
+        font-size: 1.8rem;
+        word-spacing: 0.1rem;
+    }
+    .overlay{
+        right: -1rem;
+        top: -1.5rem;
+    }
+    .overlay img{
+        height: 5rem;
+        width: 5rem;
+    }
+    .last_bar p{
+        font-size: .7rem;
+    }
+    .Email{
+        width: 55vw;
+    }
+    .send{
+        padding: 1rem;
+    }
+    .send h3{
+        font-size: 1.1rem;
+    }
+    .leftSend form textarea{
+        height: 5rem;
+    }
+    .sendcover p{
+        font-size: .8rem;
+        font-weight: 500;
+        margin-bottom: .5rem;
+    }
+    .sendicon{
+        padding: .2rem;
+        width: 100%;
+    }
+    .sendicon i{
+       font-size: .5rem;
+    }
+    .sendicon h4{
+      font-size: .1rem;
+    }
+    .sendicon:nth-child(2) h4{
+        font-size: .9rem;
+        font-weight: 400;
+    }
+}
