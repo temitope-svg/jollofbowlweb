@@ -197,7 +197,7 @@
     font-size: 1rem;
     color: rgb(0, 0,0,.8);
     margin-bottom:.3rem ;
-    font-weight: 500;
+    font-weight: 510;
 }
 .leftSend form input{
     height: 2rem;
@@ -282,7 +282,7 @@
 }
 .low_left a{
     color: rgb(0, 0,0,.7);
-    padding: 0.45rem;
+    padding: 0.43rem;
     background-color: #fff;
     border-radius: 50%;
     font-size: 1rem;
