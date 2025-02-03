@@ -165,11 +165,49 @@
     font-weight: 500;
     margin-left: 0.3rem;
 }
+.avalible{  
+  width: 85%;
+  background-color: #fff;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  margin: 2rem auto;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1em;
+  padding: 1.5em .5em;
+  font-family: AlteHaasGrotesk ;
+  max-width: 500px;
+}
+.avalible h3{
+    font-size: 1.4em;
+   font-weight: 600;
+}
+.avail_logo{
+    margin-top: 1em;
+    width: 100%;
+    text-align: center;
+} 
+.avail_logo a img{
+    width:26%;
+    height: 7vh;
+    margin-left:.5em ;
+    border-radius: .5em;
+}
+.avalible h4{
+    margin: 1em 0;
+    font-size: 1.2em;
+    font-weight: 500;
+    width: 95%;
+    text-align: center;
+}
+.avalible p{
+    font-size: 1.1em;
+}
 .send{
     background-color: #FFD008;
     padding: 2rem;
     margin: 0 2rem;
-    margin-top: 3rem;
     border-radius: 1.5rem;
 }
 .send h3{
@@ -287,6 +325,7 @@
     border-radius: 50%;
     font-size: 1rem;
 }
+
 @media (max-width: 700px) {
     .details p{
         font-size: .9rem;
